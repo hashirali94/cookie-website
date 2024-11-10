@@ -1,0 +1,44 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f3a683;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .image {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .image {
+      flex: 1;
+    }
+  
+    .text {
+      flex: 1;
+    }
+  }
